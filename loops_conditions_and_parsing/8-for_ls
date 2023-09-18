@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# For loop of death
+for i in *
+do
+	echo "${i#*-}"
+done
